@@ -30,3 +30,5 @@ jobs:
         uses: fermyon/actions/spin/deploy@v1
         with:
           fermyon_token: ${{ secrets.FERMYON_CLOUD_TOKEN }}
+        env:
+          RUST_LOG: spin=trace
