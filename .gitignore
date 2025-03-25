@@ -2,3 +2,4 @@ target/
 .spin/
 .vscode/
 supply-chain/
+.idea/
